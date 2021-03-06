@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*GENERAL STYLING*/
+
+header {
+  margin: 5rem 8rem 5rem 7rem;
+  font-family: Arial;
+  width: 85%;
+  border-bottom: 2px solid gray;
+}
+
+section {
+  width: 80%;
+  border: 4px solid gray;
+  border-radius: 5px;
+  margin: 5rem auto 3rem auto;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+h2 {
+  margin: 2rem;
+  display: block;
+  font-family: Arial;
+}
+
+p {
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*COLOURS SECTION*/
+
+.color1, .color2, .color3, .color4 {
+  width: 27%;
+  text-align: center;
+  color: white;
+  margin: 2rem;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+}
+
+.color1 {
+  background-color: CadetBlue;
+}
+
+.color2 {
+  background-color: DarkGreen;
+}
+
+.color3 {
+  background-color: DarkSlateGray;
+}
+
+.color4 {
+  background-color: DarkRed;
+}
+
+/*FONTS SECTION*/
+
+h3 {
+  margin-left: 1rem;
+}
+
+.font {
+  margin: 0.5rem 0.4rem 0.2rem 1rem;
+  width: 27%;
+}
+
+.font1 {
+  font-family: 'Abril Fatface';
+}
+
+.font2 {
+  font-family: 'Fredericka the Great';
+}
+
+.font3 {
+  font-family: 'Jura';
+}
+
+.font4 {
+  font-family: 'Poiret One';
+  margin-bottom: 3rem;
+}
+
+/*TITLE STYLES SECTION*/
+
+.container_block {
+  margin: 1rem 2rem 3rem 2rem;
+}
+
+.container_block h1, .container_block h2 {
+  margin: 1rem;
+}
+
+ul {
+  margin-left: 4rem;
+}
